@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.head{
+    color: pink;
+    font-size: 70px;
+}
+#container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px;
+    row-gap: 9px;
+    column-gap: 9px;
+    
+}
+
+#cell1 ,#cell2 ,#cell3 ,#cell4 , #cell5,  #cell6 , #cell7 ,#cell8  ,#cell9 {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+#cell1:hover ,#cell2:hover ,#cell3:hover ,#cell4:hover , #cell5:hover,  #cell6:hover , #cell7:hover ,#cell8:hover ,#cell9:hover {
+   background-color: aqua;
+   
+    
+}
+#Reset{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#result{
+    color: white;
+}
+
